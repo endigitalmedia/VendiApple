@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5A226FB2ACE1B1C00316E52 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A226FA2ACE1B1C00316E52 /* Tests_iOS.swift */; };
+		B5A227062ACE1B1C00316E52 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A227052ACE1B1C00316E52 /* Tests_macOS.swift */; };
+		B5A227082ACE1B1C00316E52 /* VendiAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A226DF2ACE1B1B00316E52 /* VendiAppleApp.swift */; };
+		B5A227092ACE1B1C00316E52 /* VendiAppleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A226DF2ACE1B1B00316E52 /* VendiAppleApp.swift */; };
+		B5A2270A2ACE1B1C00316E52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A226E02ACE1B1B00316E52 /* ContentView.swift */; };
+		B5A2270B2ACE1B1C00316E52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A226E02ACE1B1B00316E52 /* ContentView.swift */; };
+		B5A2270C2ACE1B1C00316E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A226E12ACE1B1C00316E52 /* Assets.xcassets */; };
+		B5A2270D2ACE1B1C00316E52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5A226E12ACE1B1C00316E52 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5A226F72ACE1B1C00316E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A226DA2ACE1B1B00316E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A226E52ACE1B1C00316E52;
+			remoteInfo = "VendiApple (iOS)";
+		};
+		B5A227022ACE1B1C00316E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5A226DA2ACE1B1B00316E52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5A226ED2ACE1B1C00316E52;
+			remoteInfo = "VendiApple (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5A226DF2ACE1B1B00316E52 /* VendiAppleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendiAppleApp.swift; sourceTree = "<group>"; };
+		B5A226E02ACE1B1B00316E52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B5A226E12ACE1B1C00316E52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5A226E62ACE1B1C00316E52 /* VendiApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendiApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A226E92ACE1B1C00316E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A226EE2ACE1B1C00316E52 /* VendiApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendiApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A226F02ACE1B1C00316E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A226F12ACE1B1C00316E52 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B5A226F62ACE1B1C00316E52 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A226FA2ACE1B1C00316E52 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		B5A226FC2ACE1B1C00316E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5A227012ACE1B1C00316E52 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A227052ACE1B1C00316E52 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		B5A227072ACE1B1C00316E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5A226E32ACE1B1C00316E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226EB2ACE1B1C00316E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226F32ACE1B1C00316E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226FE2ACE1B1C00316E52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5A226D92ACE1B1B00316E52 = {
+			isa = PBXGroup;
+			children = (
+				B5A226DE2ACE1B1B00316E52 /* Shared */,
+				B5A226E82ACE1B1C00316E52 /* iOS */,
+				B5A226EF2ACE1B1C00316E52 /* macOS */,
+				B5A226F92ACE1B1C00316E52 /* Tests iOS */,
+				B5A227042ACE1B1C00316E52 /* Tests macOS */,
+				B5A226E72ACE1B1C00316E52 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5A226DE2ACE1B1B00316E52 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B5A226DF2ACE1B1B00316E52 /* VendiAppleApp.swift */,
+				B5A226E02ACE1B1B00316E52 /* ContentView.swift */,
+				B5A226E12ACE1B1C00316E52 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		B5A226E72ACE1B1C00316E52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5A226E62ACE1B1C00316E52 /* VendiApple.app */,
+				B5A226EE2ACE1B1C00316E52 /* VendiApple.app */,
+				B5A226F62ACE1B1C00316E52 /* Tests iOS.xctest */,
+				B5A227012ACE1B1C00316E52 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5A226E82ACE1B1C00316E52 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B5A226E92ACE1B1C00316E52 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		B5A226EF2ACE1B1C00316E52 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B5A226F02ACE1B1C00316E52 /* Info.plist */,
+				B5A226F12ACE1B1C00316E52 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		B5A226F92ACE1B1C00316E52 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B5A226FA2ACE1B1C00316E52 /* Tests_iOS.swift */,
+				B5A226FC2ACE1B1C00316E52 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		B5A227042ACE1B1C00316E52 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				B5A227052ACE1B1C00316E52 /* Tests_macOS.swift */,
+				B5A227072ACE1B1C00316E52 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5A226E52ACE1B1C00316E52 /* VendiApple (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A227102ACE1B1C00316E52 /* Build configuration list for PBXNativeTarget "VendiApple (iOS)" */;
+			buildPhases = (
+				B5A226E22ACE1B1C00316E52 /* Sources */,
+				B5A226E32ACE1B1C00316E52 /* Frameworks */,
+				B5A226E42ACE1B1C00316E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VendiApple (iOS)";
+			productName = "VendiApple (iOS)";
+			productReference = B5A226E62ACE1B1C00316E52 /* VendiApple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5A226ED2ACE1B1C00316E52 /* VendiApple (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A227132ACE1B1C00316E52 /* Build configuration list for PBXNativeTarget "VendiApple (macOS)" */;
+			buildPhases = (
+				B5A226EA2ACE1B1C00316E52 /* Sources */,
+				B5A226EB2ACE1B1C00316E52 /* Frameworks */,
+				B5A226EC2ACE1B1C00316E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VendiApple (macOS)";
+			productName = "VendiApple (macOS)";
+			productReference = B5A226EE2ACE1B1C00316E52 /* VendiApple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5A226F52ACE1B1C00316E52 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A227162ACE1B1C00316E52 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				B5A226F22ACE1B1C00316E52 /* Sources */,
+				B5A226F32ACE1B1C00316E52 /* Frameworks */,
+				B5A226F42ACE1B1C00316E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A226F82ACE1B1C00316E52 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = B5A226F62ACE1B1C00316E52 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B5A227002ACE1B1C00316E52 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5A227192ACE1B1C00316E52 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				B5A226FD2ACE1B1C00316E52 /* Sources */,
+				B5A226FE2ACE1B1C00316E52 /* Frameworks */,
+				B5A226FF2ACE1B1C00316E52 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5A227032ACE1B1C00316E52 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = B5A227012ACE1B1C00316E52 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5A226DA2ACE1B1B00316E52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B5A226E52ACE1B1C00316E52 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B5A226ED2ACE1B1C00316E52 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B5A226F52ACE1B1C00316E52 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B5A226E52ACE1B1C00316E52;
+					};
+					B5A227002ACE1B1C00316E52 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B5A226ED2ACE1B1C00316E52;
+					};
+				};
+			};
+			buildConfigurationList = B5A226DD2ACE1B1B00316E52 /* Build configuration list for PBXProject "VendiApple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5A226D92ACE1B1B00316E52;
+			productRefGroup = B5A226E72ACE1B1C00316E52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5A226E52ACE1B1C00316E52 /* VendiApple (iOS) */,
+				B5A226ED2ACE1B1C00316E52 /* VendiApple (macOS) */,
+				B5A226F52ACE1B1C00316E52 /* Tests iOS */,
+				B5A227002ACE1B1C00316E52 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5A226E42ACE1B1C00316E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A2270C2ACE1B1C00316E52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226EC2ACE1B1C00316E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A2270D2ACE1B1C00316E52 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226F42ACE1B1C00316E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226FF2ACE1B1C00316E52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5A226E22ACE1B1C00316E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A2270A2ACE1B1C00316E52 /* ContentView.swift in Sources */,
+				B5A227082ACE1B1C00316E52 /* VendiAppleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226EA2ACE1B1C00316E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A2270B2ACE1B1C00316E52 /* ContentView.swift in Sources */,
+				B5A227092ACE1B1C00316E52 /* VendiAppleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226F22ACE1B1C00316E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A226FB2ACE1B1C00316E52 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5A226FD2ACE1B1C00316E52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A227062ACE1B1C00316E52 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5A226F82ACE1B1C00316E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A226E52ACE1B1C00316E52 /* VendiApple (iOS) */;
+			targetProxy = B5A226F72ACE1B1C00316E52 /* PBXContainerItemProxy */;
+		};
+		B5A227032ACE1B1C00316E52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5A226ED2ACE1B1C00316E52 /* VendiApple (macOS) */;
+			targetProxy = B5A227022ACE1B1C00316E52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B5A2270E2ACE1B1C00316E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5A2270F2ACE1B1C00316E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B5A227112ACE1B1C00316E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = endigitalmedia.VendiApple;
+				PRODUCT_NAME = VendiApple;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5A227122ACE1B1C00316E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = endigitalmedia.VendiApple;
+				PRODUCT_NAME = VendiApple;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A227142ACE1B1C00316E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = endigitalmedia.VendiApple;
+				PRODUCT_NAME = VendiApple;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B5A227152ACE1B1C00316E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = endigitalmedia.VendiApple;
+				PRODUCT_NAME = VendiApple;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B5A227172ACE1B1C00316E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "endigitalmedia.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VendiApple (iOS)";
+			};
+			name = Debug;
+		};
+		B5A227182ACE1B1C00316E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "endigitalmedia.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VendiApple (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A2271A2ACE1B1C00316E52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "endigitalmedia.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "VendiApple (macOS)";
+			};
+			name = Debug;
+		};
+		B5A2271B2ACE1B1C00316E52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "endigitalmedia.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "VendiApple (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5A226DD2ACE1B1B00316E52 /* Build configuration list for PBXProject "VendiApple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A2270E2ACE1B1C00316E52 /* Debug */,
+				B5A2270F2ACE1B1C00316E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A227102ACE1B1C00316E52 /* Build configuration list for PBXNativeTarget "VendiApple (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A227112ACE1B1C00316E52 /* Debug */,
+				B5A227122ACE1B1C00316E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A227132ACE1B1C00316E52 /* Build configuration list for PBXNativeTarget "VendiApple (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A227142ACE1B1C00316E52 /* Debug */,
+				B5A227152ACE1B1C00316E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A227162ACE1B1C00316E52 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A227172ACE1B1C00316E52 /* Debug */,
+				B5A227182ACE1B1C00316E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5A227192ACE1B1C00316E52 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A2271A2ACE1B1C00316E52 /* Debug */,
+				B5A2271B2ACE1B1C00316E52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5A226DA2ACE1B1B00316E52 /* Project object */;
+}
